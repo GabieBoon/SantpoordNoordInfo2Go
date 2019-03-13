@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+ <html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Contact | Santpoort-Noord Info 2 Go</title>
+		<meta name="author" content="Gabie Boon">
+		<meta name="keywords" content="Santpoort-Noord, Santpoort, Actieve vakantie, Actief, Activiteiten, Bezienswaardigheden, Horeca, Slaapgelegenheid" />
+		<meta name="description" content="Contact formulier" />
+		<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" media="only screen"/>
+		<link rel="stylesheet" type="text/css" href="../css/stylesheet_mobile.css" media="only screen and (orientation: portrait)" />
+		<link rel="icon" type="image/png" href="../img/icon.png" />
+	</head>
+	<body>
+		<header>
+		<a href="../index.html">
+			<img id="logo_nonhome" src="../img/logo.png" alt="logo Santpoort-Noord Info 2 Go">
+		</a>
+		<img id="banner" src="../img/contact_headerbackground.jpg" alt="banner van skyline Santpoort-Noord als de zon aan het ondergaan is">
+			<nav id="big">
+				<ul>
+					<li>
+						<a href="../index.html">Home</a>
+					</li>
+					<li>
+						<a href="bezienswaardigheden.html">Bezienswaardigheden</a>
+					</li>
+					<li>
+						<a href="activiteiten.html">Activiteiten</a>
+					</li>
+					<li>
+						<a href="horeca.html">Horeca</a>
+					</li>			
+					<li>
+						<a href="slaapgelegenheid.html">Slaapgelegenheid</a>
+					</li>
+					<li>
+						<a href="#" class="active">Contact</a>
+					</li>		
+				</ul>
+			</nav>
+			<!--	mobile nav	-->
+			<nav id="small" class="dropdown">
+				<section class="menuClick">
+					<h3>.</h3>
+					<b>Menu&#9776;</b>
+				</section>
+				<section id="menu" class="dropdownBox">
+					<h3>.</h3>
+					<p class="dropOption">
+						<a href="../index.html">Home</a>
+					</p>
+					<p class="dropOption">
+						<a href="bezienswaardigheden.html">Bezienswaardigheden</a>
+					</p>
+					<p class="dropOption">
+						<a href="activiteiten.html">Activiteiten</a>
+					</p>
+					<p class="dropOption">
+						<a href="horeca.html">Horeca</a>
+					</p>
+					<p class="dropOption">
+						<a href="slaapgelegenheid.html">Slaapgelegenheid</a>
+					</p>
+					<p class="dropOption">
+						<a href="#" class="active">Contact</a>
+					</p>
+				</section>
+			</nav>
+		</header>		
+		<article id="content">
+			<h1>Contact</h1>
+			<p>Via dit contactformulier kunt u vragen stellen of opmerkingen sturen aan de webbeheerder. Wij streven ernaar om binnen 48 uur op uw bericht te reageren.</p>
+			<p>Uw persoonlijke gegevens zullen vertrouwelijk behandeld worden en worden niet aan derden verstrekt. </p>
+			
+			<section id="contactform">
+				<h3>.</h3>			<!-- semantics fix voor section -->
+				<p id="side">* verplichte velden</p>
+				<form action="mailto:gabieboon@gmail.com" method="post" enctype="text/plain">
+					
+					<fieldset>
+						<label>Aanhef *</label>
+						<input type="radio" name="aanhef" value="Dhr." required>
+						<label class="aanhef">Dhr.</label>
+						<input type="radio" name="aanhef" value="Mevr." required>
+						<label class="aanhef">Mevr.</label>
+					</fieldset>
+					
+					<fieldset>
+						<label>Voornaam *</label>
+						<input type="text" name="voornaam" required placeholder="Henk">
+					</fieldset>
+					
+					<fieldset>
+						<label>Achternaam *</label>
+						<input type="text" name="achternaam" required placeholder="van Waalwijk">
+					</fieldset>
+					
+					<fieldset>
+						<label>E-mailadres *</label>
+						<input type="email" name="email" required placeholder="henkvanwaalwijk@mail.com ">
+					</fieldset>
+					
+					<fieldset>
+						<label>Telefoonnummer</label>
+						<input type="tel" name="telefoon" maxlength="10" placeholder="06-12345678">
+					</fieldset>
+					
+					<fieldset>
+						<label>Websiteadres</label>
+						<input type="url" name="website" placeholder="henkvanwaalwijk.nl">
+					</fieldset>
+					
+					<fieldset>
+						<h2 id="vraag">Uw Vraag of Opmerking</h2>
+						<textarea name="vraag" required placeholder="typ hier uw vraag..."></textarea>
+					</fieldset>
+					
+					<fieldset>
+						<button type="submit">Verzenden</button>
+					</fieldset>
+				</form>
+			</section>
+		</article>
+		<aside></aside>
+		<footer id="copyright">
+			<nav id="footernav">
+				<ul>
+					<li><a href="sources.html" id="borderright">Sources</a></li>
+					<li><a href="aboutme.html">About me</a></li>
+				</ul>
+			</nav>
+			<a href="#"><img id="navlogo" src="../img/logo.png" alt="logo Santpoort-Noord Info 2 Go"/></a>
+			<section id="copyrightText">
+				<h3>.</h3>			<!-- semantics fix voor section -->
+				
+				<p>&copy; copyright 2017 by Gabie Boon </p>
+				<p>Deze website is designed en ontwikkeld door Gabie Boon</p>
+			</section>
+		</footer>>
+	</body>
+ </html>

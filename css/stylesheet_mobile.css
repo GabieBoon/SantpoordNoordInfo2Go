@@ -1,0 +1,318 @@
+/*=============================		body		================================*/
+@font-face {
+	font-family: "Century Gothic";
+	src: url('../fonts/911Fonts.com_CenturyGothicRegular__-_911fonts.com-fonts-mhpY.ttf');
+}
+
+body {
+	background-color: #C4C4C4;
+	margin: 0%;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	overflow-x: hidden;
+}
+
+h3{
+	font-size: 0;
+	opacity: 0;
+}
+
+/*=============================		menu		================================*/
+header {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+nav#small {
+	display: block;
+}
+nav#big {
+	display: none;
+}
+
+#balkennav_box{
+	display:none;
+}
+
+.menuClick {
+	width: 100%;
+	color: white;
+	background-color: #20b2e3;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.menuClick b{
+	width: 100%;
+	color: white;
+	background-color: #20b2e3;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropdownBox {
+	display: none;
+}
+
+.dropdown:hover
+.dropdownBox {
+	display: block;
+	text-align: center;
+	width: 100%;
+	background-color: #959595;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+}
+
+.dropOption {
+	font-size: 30px;
+	margin: 0px;
+	padding: 0px;
+	width:100%;
+}
+.dropOption:hover {
+	background-color: #1e9ec9;
+}
+.dropOption a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 0.875em 1em;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+header nav ul {
+	background-color: #20b2e3;
+	text-align: center;
+	list-style-type: none;
+	position: relative;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+header nav ul li {
+	display: inline-block;
+	height: 100px;
+	font-size: 40px;
+}
+
+header nav ul li a {
+	padding: 20px 15px;
+	display: block;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.active {
+	background-color: #1b88ad;
+}
+
+#logo_home{
+	position: absolute;
+	z-index: 999;
+	margin-left: 25%;
+	margin-right: 30%;
+	margin-top:15%;
+	width: 60%;
+}
+
+#logo_nonhome{
+	position: absolute;
+	z-index: 999;
+	margin-left: 25%;
+	margin-right: 30%;
+	margin-top: 12%;
+	width: 60%;
+}
+
+
+#banner {
+	width:100%;
+	z-index: 1;
+	margin-bottom: -21px;
+}
+/*=============================		content		================================*/
+
+#content {
+	background-color: #FFFFFF;
+	padding: 10px;
+	width: 100%;
+	margin-left: 0px;
+	margin-top: -30px;
+	overflow:auto;
+	overflow-x:hidden;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+p {
+	padding-left:10%;
+	padding-right:10%;
+}
+
+h1 {
+	font-size: 200%;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom:1.5%;
+}
+
+.contentbox h2{
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align:center;
+}
+
+foto_aboutme {
+	
+}
+
+.afbeeldingcontent {
+	float: none;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	border: 1px solid #000;
+}
+
+#lastimg {
+	margin-bottom:35px;
+}
+
+.textcontents {
+	width: 80%;
+}
+
+.contentbox{
+	margin-bottom: 15%;
+}
+
+h2 {
+	margin-left: 10%;
+}
+
+#foto_aboutme {
+	float:right;
+	width: 280px;
+}
+
+/*=============================		Contact Form		================================*/
+
+form {
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #ddd;
+	padding: 20px;
+}
+
+.contact {
+	width: 525px; 
+	margin: 12px auto 12px auto;
+}
+
+#contactformulier {
+	margin: auto;
+}
+
+#side {
+	text-align: right;
+	margin-bottom: 0;
+	font-size: 12px;
+	color: #ccc;
+}
+
+label {
+	display: inline-block;
+	line-height: 30px;
+	width: 122px;
+}
+
+input {
+	margin-left: 5%;
+}
+
+.aanhef {
+	width: 33px;
+}
+
+#vraag {
+	font-size: 18px;
+	margin-left:0;
+}
+
+textarea {
+	min-width: 99%;
+	max-width: 99%;
+	min-height: 150px;
+	max-height: 500px;
+}
+
+button {
+	background-color: #20b2e3;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;	
+}
+
+
+
+
+/*=============================		footer		================================*/
+footer {
+	margin-left: 0px;
+	margin-right: 0px;
+	
+	padding-left: 0px;
+	padding-right: 0px;
+}
+footer #footernav ul{
+	text-align: center;
+	font-size: 120%;
+	z-index: 1;
+	float: none;
+	width: 60%;
+	margin-left: 9%;
+	list-style: none;
+}
+footer #footernav ul li a{
+	text-decoration: none;
+	color: white;
+}
+footer #footernav ul li {
+	display: inline;
+}
+#borderright {
+	padding: 10px;
+	border-right: 3px solid white;
+}
+#copyrightText {
+	float: none;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: block;
+	z-index: 1;
+	margin-top: 25px;
+	width: 80%;
+	font-size: 100%;
+	text-align: center;
+}
+#copyrightText p {
+	text-align: center;
+}
+#navlogo {
+	width: 75%;
+	margin-left: 14%;
+	margin-right: auto;
+}

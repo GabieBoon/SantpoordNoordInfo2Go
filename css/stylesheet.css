@@ -1,0 +1,345 @@
+/*=============================		body		================================*/
+@font-face {
+	font-family: "Century Gothic";
+	src: url('../fonts/911Fonts.com_CenturyGothicRegular__-_911fonts.com-fonts-mhpY.ttf');
+}
+
+body {
+	background-color: #C4C4C4;
+	margin: 0%;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	overflow-x: hidden;
+}
+
+h3{
+	font-size: 0;
+	opacity: 0;
+}
+
+/*=============================		menu		================================*/
+header {
+	width: 100%;
+}
+
+header #big ul {
+	background-color: #20b2e3;
+	text-align: center;
+	list-style-type: none;
+	position: relative;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+header #big ul li {
+	display: inline-block;
+}
+
+header #big ul li a {
+	padding: 20px 15px;
+	display: block;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 100%;
+}
+
+header #big ul li:hover {
+	background-color: #1e9ec9;
+}
+
+.active {
+	background-color: #1b88ad;
+}
+
+#logo_home{
+	position: absolute;
+	z-index: 999;
+	margin-left: 33%;
+	margin-right: 33%;
+	margin-top: 20%;
+	width: 40%;
+}
+#logo_nonhome{
+	position: absolute;
+	z-index: 999;
+	margin-left: 33%;
+	margin-right: 33%;
+	margin-top: 16%;
+	width: 40%;
+}
+
+
+#banner {
+	width:100%;
+	z-index: 1;
+	margin-bottom: -21px;
+}
+/*=============================		content		================================*/
+
+#content {
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: -30px;
+	overflow:auto;
+}
+
+p {
+	padding-left:10%;
+	padding-right:10%;
+}
+
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 2.5%;
+	padding-bottom:1.5%;
+}
+
+foto_aboutme {
+	
+}
+
+.afbeeldingcontent {
+	float:right;
+	width: 30%;
+	margin-right:10%;
+	border: 1px solid #000;
+	margin-left:10px;
+}
+
+#lastimg {
+	margin-bottom:35px;
+}
+
+#kruidfix {
+	margin-bottom:225px;
+}
+
+.textcontents {
+	width: 60%;
+}
+
+.contentbox{
+	margin-bottom: 15%;
+}
+
+h2 {
+	margin-left: 10%;
+}
+
+#foto_aboutme {
+	float:right;
+	width: 280px;
+}
+
+fieldset {
+	border: 0px;
+	margin: 0;
+	padding: 0;
+}
+
+aside{
+	display: none;
+}
+
+/*=============================		Balken nav		================================*/
+
+.bezienswaardigheden_img {
+	width: 100%;
+	height: 500px;
+	background-image: url('../img/bezienswaardigheden.jpg');
+	background-size: cover;
+	background-position: center;
+	transition: all 0.5s;
+}
+
+.bezienswaardigheden_img:hover {
+	background-image: url('../img/bezienswaardigheden_hover.jpg');
+	transition: all 0.5s;
+}
+
+.activiteiten_img {
+	width: 100%;
+	height: 500px;
+	background-image: url('../img/activiteiten.jpg');
+	background-size: cover;
+	background-position: center;
+	transition: all 0.5s;
+}
+
+.activiteiten_img:hover {
+	background-image: url('../img/activiteiten_hover.jpg');
+	transition: all 0.5s;
+}
+
+.horeca_img {
+	width: 100%;
+	height: 500px;
+	background-image: url('../img/horeca.jpg');
+	background-size: cover;
+	background-position: center;
+	transition: all 0.5s;
+}
+
+.horeca_img:hover {
+	background-image: url('../img/horeca_hover.jpg');
+	transition: all 0.5s;
+}
+
+.slaapgelegenheid_img {
+	width: 100%;
+	height: 500px;
+	background-image: url('../img/slaapgelegenheid.jpg');
+	background-size: cover;
+	background-position: center;
+	transition: all 0.5s;
+}
+
+.slaapgelegenheid_img:hover {
+	background-image: url('../img/slaapgelegenheid_hover.jpg');
+	transition: all 0.5s;
+}
+
+
+.imgborder {
+	padding: 0;
+	border: 2px solid #20b2e3;
+	width: 20%;
+	display: inline-block;
+	height:auto;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+#balkennav_box{
+	margin-left: 9%;
+	margin-right: 9%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*=============================		Contact Form		================================*/
+
+form {
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #ddd;
+	padding: 20px;
+}
+
+.contact {
+	width: 525px; 
+	margin: 12px auto 12px auto;
+}
+
+#contactformulier {
+	/* width: 75%; */
+	margin: auto;
+}
+
+#side {
+	text-align: right;
+	/* margin-right: 17.5%; */
+	margin-bottom: 0;
+	font-size: 12px;
+	color: #ccc;
+}
+
+label {
+	display: inline-block;
+	line-height: 30px;
+	width: 122px;
+}
+
+input {
+	margin-left: 5%;
+}
+
+.aanhef {
+	width: 33px;
+}
+
+#vraag {
+	font-size: 18px;
+	margin-left:0;
+}
+
+textarea {
+	min-width: 99%;
+	max-width: 99%;
+	min-height: 150px;
+	max-height: 500px;
+}
+
+button {
+	background-color: #20b2e3;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;	
+}
+
+
+
+
+/*=============================		footer		================================*/
+#copyright{clear: both;}
+footer {
+	background-color: #959595;	
+	padding: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+footer p { 
+	color: white;
+	text-align: left;
+	font-weight: bold;
+	font-size: 80%;
+} 
+
+
+#copyrightText {
+	width: 45%;
+}
+
+#borderright {
+	border-right: 2px solid white;
+	padding-right: 8px;
+}
+
+footer #footernav ul{
+	text-align: right;
+	z-index: 50;
+	float: right;
+}
+
+footer #footernav ul li {
+	display:inline;
+}
+
+footer #footernav ul li a {
+	font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+	color: #FFFFFF;
+}
+
+footer #footernav ul li a:hover {
+	color:lightblue;
+}
+#navlogo{
+	height: 30%;
+	width: 35%;
+	margin-left: 3%;
+}
+
+/*=============================		non-mobile version nav selector		================================*/
+
+nav#big {
+	display: block;
+}
+nav#small {
+	display: none;
+}
